@@ -2,7 +2,7 @@
 without exhausting your laptop batteries too much.
 
 ```bash
-# runs postgres on a pod (locally)
+# runs locally postgres on a pod
 podman play kube my-postgres.yaml 
 
 # shutting down
