@@ -6,7 +6,7 @@ without exhausting your laptop batteries too much.
 podman play kube my-postgres.yaml 
 
 # inspect the container
-podman exec -it my-postgres bash
+podman exec -it my-postgres_pod-my-postgres bash
 $ psql -U postgres
 postgres=# \l
 
